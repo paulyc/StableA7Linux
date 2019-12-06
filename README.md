@@ -22,7 +22,7 @@ Your idevice in DFU mode
 
 git clone https://github.com/twilightmoon4/StableA7Linux.git
 
-cd stablea7linux
+cd StableA7Linux
 
 sudo apt-get update
 
