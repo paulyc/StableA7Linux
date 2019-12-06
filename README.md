@@ -1,4 +1,4 @@
-StableA7Linux for iOS10.3.3
+#StableA7Linux for iOS10.3.3
 I come here to release you my beta of the StableA7 port for Linux
 
 Warning: apparently doesn't work on iPads (in momments), only iPhones
