@@ -2,8 +2,6 @@
 
 I come here to release you my beta of the StableA7 port for Linux
 
-Warning: apparently doesn't work on iPads (in momments), only iPhones
-
 Is downgrade for iOS10.3.3 in A7 idevices
 
 What do you need to install?
