@@ -340,7 +340,7 @@ rm manifests.zip
 	echo "==> Getting ECID and ApNonce..."
         ./igetnonce
 	read -p "[+]Copy and paste apnonce and press enter: " apnonce
-            read -p "[+]Copy and paste ecid and press enter 'iPhone6,2': " ecid
+            read -p "[+]Copy and paste ecid and press enter: " ecid
             echo $identifier   
              echo $ecid
               echo $apnonce
