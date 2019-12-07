@@ -330,13 +330,13 @@ mv ipwndfu_public ipwndfu
 	irecovery -f ibss.patched.im4p
         
 	irecovery -f ibec.patched.im4p
-        
+
 echo "==> Downloading OTA manifests..."
 wget -O manifests.zip https://gitlab.com/devluke/stablea7/raw/master/A7_10.3.3_OTA_Manifests.zip -q --show-progress
 unzip -q manifests.zip
 rm manifests.zip
-
-sleep 5
+echo "==> Waiting iDevice..."
+sleep 10
 	echo "==> Getting ECID and ApNonce..."
         ./igetnonce
 	read -p "[+]Copy and paste apnonce and press enter: " apnonce
